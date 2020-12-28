@@ -3,8 +3,7 @@ import User from './User'
 
  class Users extends Component {
     render() {
-        const {users}=this.props;
-        console.log(users)
+        const {users,deleteUser}=this.props;
         console.log("deneme")
         return (
             <div>
@@ -13,9 +12,11 @@ import User from './User'
                     return(
                         <User
                         key={user.id}
+                        id={user.id}
                         name={user.name}
                         salary={user.salary}
                         department={user.department}
+                        deleteUser={deleteUser}
                         />
                     )
                 })     
