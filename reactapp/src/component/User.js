@@ -11,6 +11,7 @@ import React, { Component } from 'react'
                         <i className="fas fa-trash-alt" style={{cursor:"pointer"}}></i>
                     </div>
                     <div className="card-body">
+                    <p className="card-text"> Name:{name}</p>
                         <p className="card-text"> Maas:{salary}</p>
                         <p className="card-text"> Deparment:{department}</p>
                     </div>
