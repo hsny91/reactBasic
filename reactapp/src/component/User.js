@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 
     render() {
         const {id,name,salary,department}=this.props;  //destructing
+        console.log("calsi")
         return (
             <div className="col-md-8 mb-4">
                 <div className="card">
