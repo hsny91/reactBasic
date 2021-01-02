@@ -14,7 +14,7 @@ class Menu extends Component {
     }
 
     onDishSelect(dish) {
-        this.setState({ selectedDish: dish }); {/* To equal the selected dish with the dish we click */}
+        this.setState({ selectedDish: dish }); 
         console.log('now received dish')
     }
 
