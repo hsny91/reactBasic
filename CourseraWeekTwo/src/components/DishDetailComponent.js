@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 
     function RenderDish({dish}) {
+        console.log(dish)
         if (dish != null) {
             return (
                 <Card>
