@@ -42,7 +42,6 @@ function Footer(props) {
                 <div className="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                     <p>© Copyright 2019 Ristorante Con Fusion</p>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
             </div>
         </div>
