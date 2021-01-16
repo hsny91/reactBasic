@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Menu from './MenuComponent';
 import About from './AboutComponet';
-import { COMMENTS } from '../shared/comments';
-import { PROMOTIONS } from '../shared/promotions';
-import { LEADERS } from '../shared/leaders';
-import { DISHES } from '../shared/dishes';
 import Contact from './ContactComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
@@ -16,15 +12,7 @@ import DishDetail from './DishDetailComponent'
 
 class Main extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      dishes: DISHES,
-      comments: COMMENTS,
-      promotions: PROMOTIONS,
-      leaders: LEADERS
-  }
-}
+ 
 
   render() {
     const HomePage = () => {
